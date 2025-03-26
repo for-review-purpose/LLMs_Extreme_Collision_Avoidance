@@ -2,8 +2,8 @@
 import os
 
 # 1) OpenAI API Key
-OPENAI_API_KEY = "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"
-XAI_API_KEY = "xai-fWTPMBOAnC0styn4gqU0cQsmK5uR5Kni6ALMldULer9IkvYMzjfxd11XVTueDCu50wvHeh0ABCWBhQ43"
+OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxx"
+XAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxx"
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY  # 让其他模块也能从环境变量中获取
 
 # 2) Chroma Database
@@ -18,7 +18,7 @@ TEMPERATURE_DECISION = 0  # For decision generation
 TEMPERATURE_EVAL = 0       # For evaluation generation
 
 # 4) Retrieval
-NUM_SIMILAR_SCENARIOS = 1    # k值: 每次检索多少个相似历史场景
+NUM_SIMILAR_SCENARIOS = 1
 
 # 5) Decision Code Meaning
 DECISION_CODES = {
